@@ -1,0 +1,7 @@
+node_modules/
+logs/
+pk.txt
+PK*
+.env*
+__pycache__/
+web/dist/
