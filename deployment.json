@@ -1,0 +1,54 @@
+{
+  "network": "Bradbury Phase 2",
+  "chainId": 4221,
+  "contract": "0xa395Cf3019C8720Ba2aFCCfe62DB65cd896aF6cE",
+  "wallet": "0xF10aB469555eb723d62A565217EE678A8C200526",
+  "transactions": [
+    {
+      "action": "deploy",
+      "txId": "0xf702d8d159882bea5e22d1be10c80e355c20495cfbce907c8e750c618bfda655",
+      "status": "finalized",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "netCostGEN": "0.000142983990002117"
+    },
+    {
+      "action": "create_poll",
+      "txId": "0xc08261a511c2ffde8937dfc54d7b397433c5c5b55e1430ef3e142fce8f6423e6",
+      "status": "finalized",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "netCostGEN": "0.000083712460002117"
+    },
+    {
+      "action": "cast_ballot",
+      "txId": "0x3f1b4d6c343ec9f2197f7703eaad39399a6efa63913e97b157a400cf0c53d514",
+      "status": "finalized",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "netCostGEN": "0.000083250080002117"
+    },
+    {
+      "action": "classify",
+      "txId": "0x077a24b5096d048419631a38ea3b7db3eecdeec77daeef6ecaefa9daf7cfe5fc",
+      "status": "finalized",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "netCostGEN": "0.0000204375"
+    },
+    {
+      "action": "confirm",
+      "txId": "0x5dc7bb2b5848358aff245b113cc32c1b2c4581be1ab2228690b95d5c7c0a8e56",
+      "status": "finalized",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "netCostGEN": "0.000082332960002117"
+    }
+  ],
+  "netCostGEN": "0.000412716990008468"
+}

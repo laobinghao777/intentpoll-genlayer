@@ -45,6 +45,18 @@ The live demo creates a synthetic two-option poll, commits a preference for an i
 
 `node read.mjs` reads the published deployment without loading a private key. Public `before-confirmation.json`, `demo-result.json` and `deployment.json` are generated after successful execution and retain the before/after consent state and transaction costs.
 
+Verified on 16 November 2026: the synthetic builder ballot was classified as option 2 while the tally remained `[0,0]`; after its wallet confirmation the tally was `[0,1]`, `wallet_count=1`, with events submitted → classified → confirmed. All five deployment/workflow transactions finalized with majority agreement, accepted outcome and successful execution. A transient RPC interruption during tracking was reconciled using the same original classification transaction ID; it was not resent. `resume-demo.mjs` documents that guarded recovery path and refuses duplicate confirmation.
+
+| Operation | Net test GEN after final refunds |
+|---|---|
+| Deployment | 0.000142983990002117 |
+| Create poll | 0.000083712460002117 |
+| Commit ballot | 0.000083250080002117 |
+| Classify intent | 0.000020437500000000 |
+| Confirm interpreted choice | 0.000082332960002117 |
+
+One complete ballot interaction (commit → classify → confirm) used **0.000186020540004234 test GEN**. Including poll creation, **0.000269733000006351**; including deployment as well, **0.000412716990008468**. These are observed balance deltas from an otherwise idle test wallet after final refunds, not fee estimates or real-token spending.
+
 ## Rebuild the frontend
 
 The standalone `web/` folder contains all browser UI, styling, wallet actions, the public RPC relay, pinned dependencies and Worker build scripts. Run `npm ci --ignore-scripts`, `npm run build`, then `npm run preview` inside that folder. No backend signing key or runtime secret is required. The optional public contract constant can be changed to your own deployment. The hosted shared origin also retains the earlier, separately submitted applications.

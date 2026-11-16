@@ -1,0 +1,144 @@
+{
+  "wallet": "0xF10aB469555eb723d62A565217EE678A8C200526",
+  "contract": "0xa395Cf3019C8720Ba2aFCCfe62DB65cd896aF6cE",
+  "chainId": 4221,
+  "network": "Bradbury Phase 2",
+  "balanceGEN": "99.996159900789922028",
+  "netCostGEN": "0.000330384030006351",
+  "balanceChangeGEN": "0.000330384030006351",
+  "transactions": [
+    {
+      "action": "deploy",
+      "contract": "0xa395Cf3019C8720Ba2aFCCfe62DB65cd896aF6cE",
+      "startedAt": "2026-11-16T11:12:07.425Z",
+      "beforeWei": "99996490284819928379",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25168509820004235",
+      "evmHash": "0x320ec363aa6c9bd706d8f72dec44fb7928952831986fab0f0e6da69401f4328f",
+      "txId": "0xf702d8d159882bea5e22d1be10c80e355c20495cfbce907c8e750c618bfda655",
+      "finalizedAt": "2026-11-16T11:13:44.879Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996347300829926262",
+      "netCostWei": "142983990002117",
+      "netCostGEN": "0.000142983990002117",
+      "gasUsed": "8103474",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "81034740000000"
+    },
+    {
+      "action": "create_poll",
+      "contract": "0xa395Cf3019C8720Ba2aFCCfe62DB65cd896aF6cE",
+      "startedAt": "2026-11-16T11:16:19.709Z",
+      "beforeWei": "99996347300829926262",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25045952120004235",
+      "evmHash": "0x821ebbe8dfd2d089e95d14ef0c90b95cfd44977db93347a0b89ec8b5a1d7eb9f",
+      "txId": "0xc08261a511c2ffde8937dfc54d7b397433c5c5b55e1430ef3e142fce8f6423e6",
+      "finalizedAt": "2026-11-16T11:17:59.765Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996263588369924145",
+      "netCostWei": "83712460002117",
+      "netCostGEN": "0.000083712460002117",
+      "gasUsed": "2182246",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "21822460000000"
+    },
+    {
+      "action": "cast_ballot",
+      "contract": "0xa395Cf3019C8720Ba2aFCCfe62DB65cd896aF6cE",
+      "startedAt": "2026-11-16T11:18:03.755Z",
+      "beforeWei": "99996263588369924145",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25044973200004235",
+      "evmHash": "0x60f7e8a2370db7e802c12ced61ddaae2a3d177b6940ba5a69030d9419f5d39dd",
+      "txId": "0x3f1b4d6c343ec9f2197f7703eaad39399a6efa63913e97b157a400cf0c53d514",
+      "finalizedAt": "2026-11-16T11:19:34.584Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996180338289922028",
+      "netCostWei": "83250080002117",
+      "netCostGEN": "0.000083250080002117",
+      "gasUsed": "2135833",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "21358330000000"
+    },
+    {
+      "action": "classify",
+      "contract": "0xa395Cf3019C8720Ba2aFCCfe62DB65cd896aF6cE",
+      "startedAt": "2026-11-16T11:19:39.809Z",
+      "beforeWei": "99996180338289922028",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25043045600004235",
+      "evmHash": "0x4191945bbcafd10bd6709801a0a982291afac4931daf30ca02eb9159d71a338b",
+      "txId": "0x077a24b5096d048419631a38ea3b7db3eecdeec77daeef6ecaefa9daf7cfe5fc",
+      "error": "An unknown RPC error occurred.",
+      "finalizedAt": "2026-11-16T11:24:09.457Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996159900789922028",
+      "netCostWei": "20437500000000",
+      "netCostGEN": "0.0000204375",
+      "gasUsed": "2043750",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "20437500000000"
+    }
+  ],
+  "pending": false,
+  "total": 1,
+  "items": [
+    {
+      "ballots": {
+        "0xF10aB469555eb723d62A565217EE678A8C200526": [
+          {
+            "events": [
+              "submitted",
+              "classified"
+            ],
+            "option_id": 2,
+            "quote": "I prefer the interactive walkthrough rather than the static API reference.",
+            "revision": 1,
+            "status": "classified",
+            "text": "I prefer the interactive walkthrough rather than the static API reference.",
+            "text_sha256": "b591d419f6e15745b5f9e01d340a180001e3966b5e83782e58a75aba057e2270"
+          }
+        ]
+      },
+      "id": "1",
+      "options": [
+        "Static API reference",
+        "Interactive walkthrough"
+      ],
+      "options_sha256": "1921fd94ebe5d144a807d99347a8ecd2648ecba805a98783b9a7bd093fa5e1c0",
+      "owner": "0xF10aB469555eb723d62A565217EE678A8C200526",
+      "question": "Which documentation format should this synthetic test poll pilot?",
+      "status": "open",
+      "title": "Synthetic documentation pilot",
+      "tally": [
+        0,
+        0
+      ],
+      "wallet_count": 1,
+      "current_states": {
+        "submitted": 0,
+        "classified": 1,
+        "confirmed": 0,
+        "withdrawn": 0
+      },
+      "counting_rule": "one current confirmed ballot per wallet; not one verified person"
+    }
+  ]
+}
